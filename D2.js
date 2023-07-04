@@ -34,7 +34,11 @@ if (10 % 5 === 0) {
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let integer1 = 6;
+
+let integer2 = 8;
+
+console.log("esercizio 4", integer1 === 8 || integer2 === 8 || integer1 + integer2 === 8);
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -42,7 +46,21 @@ if (10 % 5 === 0) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 58;
+
+if (totalShoppingCart > 50) {
+  console.log("spedizione gratuita");
+} else {
+  console.log("costo spedizione 10€");
+}
+
+totalShoppingCart = 33;
+
+if (totalShoppingCart > 50) {
+  console.log("spedizione gratuita");
+} else {
+  console.log("costo spedizione 10€");
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
