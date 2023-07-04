@@ -2,13 +2,25 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numb = 27;
+
+let numb2 = 48;
+
+if (numb > numb2) {
+  console.log("27 è più grande di 48");
+} else {
+  console.log("48 è più grande di 27");
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const equal = 8;
+
+const isEqual = equal === 5 ? "equal" : "not equal";
+
+console.log(isEqual);
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -76,10 +88,10 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
