@@ -192,9 +192,9 @@ console.log(number);
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
+number.splice(number.length - 1, 1, 100);
+// number.pop();
 
-number.pop();
-
-number.push(100);
+// number.push(100);
 
 console.log(number);
