@@ -67,7 +67,25 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart1 = 58;
+
+let blackFriday = 0.2;
+
+let discount = totalShoppingCart1 * blackFriday;
+
+if (totalShoppingCart1 - discount > 50) {
+  console.log("spedizione gratuita");
+} else {
+  console.log("costo spedizione 10€");
+}
+
+totalShoppingCart1 = 88;
+
+if (totalShoppingCart1 - discount > 50) {
+  console.log("spedizione gratuita");
+} else {
+  console.log("costo spedizione 10€");
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -75,7 +93,19 @@ if (totalShoppingCart > 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const firstNumber = 7;
+
+const secondNumber = 17;
+
+const thirdNumber = 274;
+
+if (firstNumber > secondNumber > thirdNumber) {
+  console.log(" 7 > 17 > 274");
+} else if (secondNumber > firstNumber > thirdNumber) {
+  console.log("17 > 7 > 274");
+} else {
+  console.log("274 > 17 > 7");
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
